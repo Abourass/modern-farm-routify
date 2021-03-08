@@ -11,4 +11,11 @@ module.exports = {
     content: ["./src/**/*.svelte"],
     enabled: production,
   },
+  theme: {
+    extend: {
+      colors: {
+        'regal-blue': '#243c5a',
+      }
+    }
+  }
 };

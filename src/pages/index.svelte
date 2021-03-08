@@ -15,10 +15,11 @@
   }
 </style>
 
-<div class="bg-gray-100 dark:bg-white-800">
+<div class="bg-gray-100 dark:bg-gray-900">
   <Logo />
 </div>
-<div class="mx-auto">
+
+<div class="mx-auto dark:bg-regal-blue h-screen">
   <a href={$url('/example')}>Back to examples</a>
  <span>Sample Content</span>
 </div>
