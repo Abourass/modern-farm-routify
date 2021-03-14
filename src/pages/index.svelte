@@ -1,7 +1,7 @@
 <script>
-  import Logo from './example/_components/Logo.svelte';
   import {metatags} from '@roxi/routify'
-  import { url } from "@roxi/routify";
+  import {url} from "@roxi/routify";
+  import Logo from './_components/Logo.svelte';
 
   metatags.title = 'The Modern Farm - Grow Ideas'
   metatags.description = 'The Modern Farm - Grow Ideas'
@@ -15,11 +15,11 @@
   }
 </style>
 
-<div class="bg-gray-100 dark:bg-gray-900">
+<div class="bg-gray-100">
   <Logo />
 </div>
 
-<div class="mx-auto dark:bg-regal-blue h-screen">
-  <a href={$url('/example')}>Back to examples</a>
+<div class="mx-auto h-screen">
+  <a>Back to examples</a>
  <span>Sample Content</span>
 </div>
